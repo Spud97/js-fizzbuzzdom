@@ -1,3 +1,30 @@
+.bg-jumbo {
+  background-color: #083b4c;
+}
+
 .square {
-    
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.my-gap {
+  gap: 1rem;
+}
+
+.standard-color{
+    background-color: #1389b2;
+}
+
+.fizz-color{
+    background-color: #0bd6a1;
+}
+
+.buzz-color{
+    background-color: #ffd166;
+}
+
+.fizz-buzz-color{
+    background-color: #f0466f;
 }
