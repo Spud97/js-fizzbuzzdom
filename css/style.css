@@ -2,13 +2,24 @@
   background-color: #083b4c;
 }
 
-.square {
-  text-align: center;
-  padding: 10px 0px;
+.font-title {
+  font-size: 3.5rem;
 }
 
-.my-gap {
-  gap: 1rem;
+.square {
+  height: 70px;
+  width: 70px;
+  text-align: center;
+  padding: 10px 0px;
+  margin: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.fit {
+  width: fit-content;
 }
 
 .standard-color{

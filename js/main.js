@@ -1,4 +1,4 @@
-const row = document.querySelector(".row");
+const container = document.querySelector(".container");
 let printHtml;
 
 for (let i = 1; i <= 100; i++) {
@@ -19,7 +19,13 @@ for (let i = 1; i <= 100; i++) {
     printHtml = i;
     classColor = "standard-color";
   }
-  row.innerHTML += `<div class="col-1 px-0">
-                      <div class="square ${classColor}">${printHtml}</div>
-                    </div>`;
+
+  if (i === 1 || i % 7 === 1) {
+    container.innerHTML += `<br/>`;
+  }
+
+  container.innerHTML += `<div class="d-inline-block px-0">
+  <div class="square ${classColor}">${printHtml}</div>
+</div>`;
+
 }
