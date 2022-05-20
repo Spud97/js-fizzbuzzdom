@@ -19,7 +19,7 @@ for (let i = 1; i <= 100; i++) {
     printHtml = i;
     classColor = "standard-color";
   }
-  row.innerHTML += `<div class="col px-0">
+  row.innerHTML += `<div class="col-1 px-0">
                       <div class="square ${classColor}">${printHtml}</div>
                     </div>`;
 }
